@@ -23,6 +23,10 @@ def send_message(chat_id, text):
 @app.route('/')
 def hello_world():
     return 'Hello from Koyeb'
+    
+@app.route('/blabla')
+def hello_world():
+    return 'Hello from blabla Koyeb'
 
 if __name__ == "__main__":
     app.run()
