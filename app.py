@@ -1,7 +1,4 @@
 from flask import Flask
-import requests
-import os
-from dotenv import load_dotenv
 app = Flask(__name__)
 
 TOKEN = os.getenv("TELEGRAM_TOKEN")
